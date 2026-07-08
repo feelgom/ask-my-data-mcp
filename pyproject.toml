@@ -1,0 +1,23 @@
+[project]
+name = "ask-my-data-mcp"
+version = "0.1.0"
+description = "자연어 질문을 RAG/Text2SQL로 라우팅하는 LangGraph 기반 MCP 서버 데모"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.0",
+    "langgraph>=0.2.0",
+    "anthropic>=0.40.0",
+    "rank-bm25>=0.2.2",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.2.0"]
+dev = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
