@@ -1,6 +1,6 @@
 """MCP 클라이언트 없이 파이프라인을 바로 테스트하는 CLI.
 
-    python -m src.cli "송도 C현장 3층 진척률 몇 %야?"
+    python -m src.cli "Mosaic 데이터셋에서 MRR이 가장 높은 실험은?"
 """
 import sys
 
