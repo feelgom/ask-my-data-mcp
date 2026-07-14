@@ -101,8 +101,9 @@ python -m pytest -q
 `Python` · `MCP` · `LangGraph` · `Anthropic Claude` · `rank-bm25` · `sentence-transformers(옵션)` · `SQLite`
 
 ## 관련 글
-- [블로그 1편] 디지털 트윈에게 말을 걸다 — MCP 서버를 0→1로
-- [블로그 2편] 하나의 프롬프트로는 안 됐다 — LangGraph Multi-Agent 라우팅
+- [디지털 트윈에게 말을 걸다 — MCP 서버를 0→1로](https://feelgom.github.io/blog/blog/mcp-server-from-zero-to-one/)
+- [하나의 프롬프트로는 안 됐다 — LangGraph Multi-Agent 라우팅](https://feelgom.github.io/blog/blog/langgraph-multi-agent-routing/)
+- [70%짜리 검색으로 90%짜리 경험을 만드는 법](https://feelgom.github.io/blog/blog/rag-evaluation-user-experience/)
 
 ## 라이선스
 MIT
