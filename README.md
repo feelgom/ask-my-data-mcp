@@ -14,13 +14,13 @@
 
 ```
           ┌──────────┐
-질문 ────▶│  Router  │  semantic / structured / both 분류
+질문 ────▶ │  Router  │  semantic / structured / both 분류
           └────┬─────┘
        ┌───────┼────────┐
        ▼                ▼
   ┌─────────┐     ┌───────────┐
   │  RAG    │     │ Text2SQL  │
-  │ (문서)  │     │ (SQLite)  │
+  │ (문서)   │     │ (SQLite)  │
   └────┬────┘     └─────┬─────┘
        └────────┬───────┘         (both: RAG → Text2SQL 순으로 이어붙임)
                 ▼
